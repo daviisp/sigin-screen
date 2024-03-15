@@ -1,36 +1,37 @@
 @import url(style.css);
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-    section.images img {
-        width: 110%;
-    }
+  section.images img {
+    width: 110%;
+  }
 
-    section.images .circle {
-        clip-path: circle(35% at right 80%);
-    }
+  section.images .circle {
+    clip-path: circle(35% at right 80%);
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    section.images {
-        display: none;
-        visibility: hidden;
-    }
+  section.images {
+    display: none;
+    visibility: hidden;
+  }
 
-    main {
-        width: 100vw;
-    }
+  main {
+    width: 100vw;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-    main h1 {
-        font-size: 2rem;
-    }
+  main h1 {
+    font-size: 2rem;
+  }
 
-    main .alternative span {
-        font-size: 0.8rem;
-    }
+  main .alternative span {
+    font-size: 0.8rem;
+  }
 
-    main form label span, main form input[type="submit"] {
-        font-size: 1rem;
-    }
+  main form label span,
+  main form input[type="submit"] {
+    font-size: 1rem;
+  }
 }
